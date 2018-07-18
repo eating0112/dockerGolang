@@ -3,7 +3,7 @@ FROM golang:latest
 RUN mkdir /app 
 ADD . /app/ 
 WORKDIR /app 
-RUN go build -o sayHello .
+RUN go build -o sayHello1 .
 
 EXPOSE 8001
-CMD ["/app/sayHello"]
+CMD ["/app/sayHello1"]
