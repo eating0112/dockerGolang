@@ -12,7 +12,7 @@ import (
 //}
 
 func main() {
-	fmt.Println("Success11")
+	fmt.Println("Success_release")
 	//var h Hello
 	//http.ListenAndServe("0.0.0.0:8066", h)
 	http.HandleFunc("/", home)
